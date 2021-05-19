@@ -1,0 +1,24 @@
+apiVersion: v2
+name: my-magda-app
+description: A Helm chart for Kubernetes
+version: "1.0.0"
+kubeVersion: ">= 1.16.0-0"
+dependencies:
+  - name: magda
+    version: 0.0.60-rc.2
+    repository: https://charts.magda.io
+
+  - name: magda-auth-internal
+    version: 1.0.1
+    repository: https://charts.magda.io
+    tags:
+      - all
+      - magda-auth-internal
+
+  - name: magda-ckan-connector
+    version: 0.0.57-0
+    alias: connector-dga
+    repository: https://charts.magda.io
+    tags:
+      - connectors
+      - connector-dga

@@ -1,0 +1,12 @@
+dependencies:
+- name: magda
+  repository: https://charts.magda.io
+  version: 0.0.60-rc.2
+- name: magda-auth-internal
+  repository: https://charts.magda.io
+  version: 1.0.1
+- name: magda-ckan-connector
+  repository: https://charts.magda.io
+  version: 0.0.57-0
+digest: sha256:ff91d9728cb9274c252ba8bce71a46fd3a5597f4f19d0824f6fff137faaac3ff
+generated: "2021-05-20T00:09:49.458607+10:00"

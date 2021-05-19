@@ -1,0 +1,24 @@
+global:
+  connectors:
+    includeInitialJobs: true
+
+connector-dga:
+  config:
+    id: dga
+    name: "data.gov.au"
+    sourceUrl: "https://data.gov.au/data/"
+    pageSize: 1000
+    ignoreHarvestSources: ["*"]
+
+magda-auth-internal:
+  authPluginConfig:
+    loginFormExtraInfoContent: "Forgot your password? Email [test@example.com](test@example.com)"
+
+magda:
+  magda-core:
+    gateway:
+      service:
+        type: LoadBalancer
+      authPlugins:
+      - key: internal
+        baseUrl: http://magda-auth-internal

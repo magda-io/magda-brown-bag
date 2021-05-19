@@ -1,20 +1,15 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+This repo is prepared for the Magda brownbag / hands-on session for interested people to explore more.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Prerequisites
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+- [Helm](https://github.com/helm/helm/releases/tag/v3.5.4)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/)
+- A k8s cluster. Use a cloud provider or You might want to use [minikube](https://minikube.sigs.k8s.io/docs/start/)
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# Tasks
+
+- [Simple Magda Deployment with Magda Helm Chart](./simple-deployment.md)
+- [Customise Your Magda Deployment](./customise-deployment.md)
+- [Play with the Registry API](./play-with-registry.md)
