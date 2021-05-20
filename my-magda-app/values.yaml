@@ -22,3 +22,5 @@ magda:
       authPlugins:
       - key: internal
         baseUrl: http://magda-auth-internal
+
+      

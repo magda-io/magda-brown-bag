@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "title": "Product Order Details",
+  "description": "Provides information of the produce order.",
+  "type": "object",
+  "properties": {
+    "productName": {
+      "title": "Name of the product",
+      "type": "string"
+    },
+    "quantity": {
+      "title": "The quantity of this order",
+      "minimum": 1,
+      "type": "number"
+    },
+    "unitPrice": {
+      "title": "Unit Price of the product",
+      "minimum": 1,
+      "type": "number"
+    },
+    "notes": {
+      "title": "the optional notes of the order",
+      "type": "string"
+    }
+  },
+  "required": ["productName", "quantity", "unitPrice"]
+}
