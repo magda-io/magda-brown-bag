@@ -142,7 +142,7 @@ curl --location --request GET 'http://20.43.105.161/api/v0/registry/records/my-r
 > This request will list events of the records in [JSON patch](http://jsonpatch.com/) format
 
 
-> And the request below will bring back the previous "Apple" order back:
+> And the request below will bring the previous "Apple" order back:
 
 ```bash
 curl --location --request GET 'http://20.43.105.161/api/v0/registry/records/my-record-001/history/105199' \
