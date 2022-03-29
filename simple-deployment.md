@@ -26,6 +26,8 @@ kubectl create namespace magda
 
 3> Create required secrets
 
+> __Please Note: Since v1.0.0, Magda's Helm Charts will auto create / manage secrets required by `magda-core`. You ONLY need to manually create secrets as described in this section when use any version earlier than v1.0.0.__
+
 > You need [pwgen](https://linux.die.net/man/1/pwgen) command line tool to follow the instruction below. If it's not availble on nyour system, you need to install one.
 
 ```bash
