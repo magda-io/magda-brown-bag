@@ -1,4 +1,5 @@
 global:
+  externalUrl: "http://localhost"
   connectors:
     includeInitialJobs: true
 
