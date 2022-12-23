@@ -26,6 +26,7 @@ kubectl create namespace magda
 
 3> Create required secrets (optional)
 
+```
 # Optional; Required by correspondence-api --- for sending email notification of user inquires
 kubectl create secret generic smtp-secret --namespace magda --from-literal=username=$SMTP_USERNAME --from-literal=password=$SMTP_PASSWORD
 ```
