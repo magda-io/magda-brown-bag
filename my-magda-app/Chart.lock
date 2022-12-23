@@ -1,12 +1,12 @@
 dependencies:
 - name: magda
-  repository: https://charts.magda.io
-  version: 0.0.60-rc.2
+  repository: oci://ghcr.io/magda-io/charts
+  version: 2.2.0
 - name: magda-auth-internal
-  repository: https://charts.magda.io
-  version: 1.0.1
+  repository: oci://ghcr.io/magda-io/charts
+  version: 2.0.0-alpha.0
 - name: magda-ckan-connector
-  repository: https://charts.magda.io
-  version: 0.0.57-0
-digest: sha256:ff91d9728cb9274c252ba8bce71a46fd3a5597f4f19d0824f6fff137faaac3ff
-generated: "2021-05-20T00:09:49.458607+10:00"
+  repository: oci://ghcr.io/magda-io/charts
+  version: 2.0.0
+digest: sha256:6e892e1d3559ee03ad089421cea1ebedd0d865b676b084c6359519984010d022
+generated: "2022-12-23T14:01:26.91951+11:00"
