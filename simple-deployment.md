@@ -39,7 +39,7 @@ helm upgrade --namespace magda --install --timeout 9999s --set magda-core.gatewa
 > By default, Helm will install the latest production version of Magda. You can use `--version` to specify the exact chart version to use. e.g.:
 
 ```bash
-helm upgrade --namespace magda --install --version 2.2.0-alpha.3 --timeout 9999s --set magda-core.gateway.service.type=LoadBalancer magda oci://ghcr.io/magda-io/charts/magda
+helm upgrade --namespace magda --install --version 2.2.4 --timeout 9999s --set magda-core.gateway.service.type=LoadBalancer magda oci://ghcr.io/magda-io/charts/magda
 ```
 
 The value `--set magda-core.gateway.service.type=LoadBalancer` will expose Magda via load balancer.
