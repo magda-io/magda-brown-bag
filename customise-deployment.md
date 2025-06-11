@@ -44,7 +44,7 @@ After the deployment, you might notice the connector is pulling data from an ext
 
 # Create a local user
 
-- Install [Node.js 14](https://nodejs.org/en/) & [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
+- Install [Node.js 18](https://nodejs.org/en/) & [yarn](https://classic.yarnpkg.com/en/docs/install/#mac-stable)
 - Clone Repo: https://github.com/magda-io/magda-auth-internal
 - Go to repo root, run `yarn install`
 - port-forward pod `combined-db-0`: `kubectl -n magda port-forward combined-db-0 5432`
